@@ -1,0 +1,41 @@
+.modalForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    height: 30px;
+    border: 1px solid goldenrod;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input:hover{
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f3f3f3;
+}
+
+button{
+    height: 50px;
+    border: 1px solid goldenrod;
+    background-color: white;
+    color: goldenrod;
+    border-radius: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: goldenrod;
+    color: white;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f3f3f3;
+}
+
+.cancel:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f3f3f3;  
+}
